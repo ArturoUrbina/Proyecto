@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Kaans</title>
+  <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="../css/styles-user.css" rel="stylesheet"/>
+</head>
+
+<body id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html"><img src="../assets/img/navbar-logo.svg" alt="" /></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars ml-1"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="./chat.html">Chat</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#temary">Temario</a></li>
+          <li class="nav-item"><a class="nav-link" href="./quizzes.html">Trivia</a></li>
+          <li class="nav-item"><a class="nav-link" href="./configuration.html">Configuración</a></li>
+          <li class="nav-item"><a class="btn btn-primary" href="../index.html">Cerrar sesión</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact-->
+  <section class="page-section bg-light mt-4" id="temary">
+    <div class="container">
+      <a class="text-decoration-none" href="./temary.html">
+        <h4 class=""><i class="fas fa-chevron-left"></i> Regresar</h4>
+      </a>
+      
+      <div class="d-flex mt-3" id="wrapper">
+
+        <!-- Sidebar -->
+        <div class="bg-light border-right" id="sidebar-wrapper">
+          <div class="sidebar-heading">Bloque 1 </div>
+          <div class="list-group list-group-flush">
+            <a href="#!" class="list-group-item list-group-item-action bg-light" onclick="changeTopic(0);">Lorem, ipsum.</a>
+            <a href="#!" class="list-group-item list-group-item-action bg-light" onclick="changeTopic(1);">Lorem</a>
+            <a href="#!" class="list-group-item list-group-item-action bg-light">Lorem, ipsum dolor.</a>
+            <a href="#!" class="list-group-item list-group-item-action bg-light">Lorem, ipsum.</a>
+            <a href="#!" class="list-group-item list-group-item-action bg-light">Lorem ipsum dolor sit amet consectetur.</a>
+            <a href="#!" class="list-group-item list-group-item-action bg-light">Lorem, ipsum dolor.</a>
+          </div>
+        </div>
+        <!-- /#sidebar-wrapper -->
+    
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+    
+          <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+            <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+          </nav>
+    
+          <div class="container-fluid">
+            <h1 class="mt-4" id="topic_title">Lorem, ipsum.</h1>
+            <p class="text-justify" id="topic_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil molestiae porro laboriosam tenetur, recusandae ipsam ab ipsa fuga nam culpa adipisci quidem laudantium non deleniti itaque sint asperiores laborum in!</p>
+            <!-- <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque placeat quasi facilis nulla aspernatur, laudantium deserunt. Modi consequatur facere veritatis sit totam nostrum delectus quasi eius! Nostrum eligendi nisi, at necessitatibus tempora tempore cum deleniti suscipit nulla nesciunt quibusdam porro quas dolorem fuga nam consequuntur?</p> -->
+          </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+    
+      </div>
+      <!-- /#wrapper -->
+    </div>
+  </section>
+
+  <!-- Footer-->
+  <footer class="footer py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4 text-lg-left">Copyright © Your Website 2020</div>
+        <div class="col-lg-4 my-3 my-lg-0">
+          <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+          <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="col-lg-4 text-lg-right">
+          <a class="mr-3" href="#!">Privacy Policy</a>
+          <a href="#!">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Third party plugin JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="../js/scripts.js"></script>
+  <script src="../js/topic.js"></script>
+</body>
+
+</html>
